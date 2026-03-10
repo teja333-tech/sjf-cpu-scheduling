@@ -1,9 +1,11 @@
 
 PROGRAM
 
+
+
+
 #include <stdio.h>
 #include <string.h>
-
 struct process {
     char pid[10];
     int at;
@@ -12,7 +14,6 @@ struct process {
     int tat;
     int completed;
 };
-
 int main() {
     int n, i, completed = 0, time = 0, min_bt, index;
     float avg_wt = 0, avg_tat = 0;
